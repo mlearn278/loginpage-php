@@ -75,7 +75,7 @@
 	
    <body>
       
-      <h2>Enter Username and Password</h2> 
+      <h2>Enter Username and Password Correctly</h2> 
       <div class = "container form-signin">
          
          <?php
@@ -90,7 +90,7 @@
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'tutorialspoint';
                   
-                  echo 'You have entered valid use name and password';
+                  echo 'You have entered valid user name and password';
                }else {
                   $msg = 'Wrong username or password';
                }
